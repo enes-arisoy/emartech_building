@@ -1,0 +1,33 @@
+.w-100-height {
+    height: 90vh;
+    width: 100%;
+}
+
+.carousel-item {
+    min-height: 300px;
+}
+
+.carousol-1{
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+.carousol-1 h5{
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.carousel-inner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+    z-index: 5;
+}
+
